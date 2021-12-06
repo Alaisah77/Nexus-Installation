@@ -13,7 +13,7 @@ useradd nexus
 #4 Give sudo access to nexus user
 
 sudo echo "nexus ALL=(ALL) NOPASSWD:ALL" | sudo tee /etc/sudoers.d/nexus
-sudo su - sonar
+sudo su - nexus
 
 cd /opt
 
